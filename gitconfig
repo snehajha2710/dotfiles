@@ -61,4 +61,10 @@
   defaultBranch = master
 [user]
 	email = sneha.samastipur@gmail.com
-	name = Sneha Jha
+	name = sneha jha
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
